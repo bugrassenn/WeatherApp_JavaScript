@@ -13,5 +13,5 @@ LINK : https://bugrassen-weatherapp.netlify.app/
 </div>  
 
 <div align="center">
-    <img src="https://www.resimupload.org/images/2023/08/13/Ekran-Alintisi.md.png" alt="alt" style="max-width: 100%; height: auto;">
+    <img src="https://www.resimupload.org/images/2023/08/13/Ekran-Alintisi.md.png" target="_blank" alt="alt" style="max-width: 100%; height: auto;">
 </div>
