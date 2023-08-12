@@ -5,7 +5,7 @@
 
 Siteye giriş yapan kullanıcı hangi şehirin hava durumu hakkında bilgi almak istiyorsa searchbar (input) kısmına o şehiri girerek o an ki hava durumu hakkında bilgi alabilmektedir. Verileri API' den anlık olarak alıp gelen JSON'un içinden icon kodunu alıp weatherapp sitesindeki resimleri projeye dahil eder icon görünümü sağlanmaktadır.  
 
-<a href="https://bugrassen-weatherapp.netlify.app/" target="_blank">LINK</a>
+<a href="https://bugrassen-weatherapp.netlify.app/" target="_blank">WeatherApp Link</a>
 
 
 <div align="center">
