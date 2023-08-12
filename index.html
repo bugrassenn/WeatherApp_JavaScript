@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <div class="header">
+        <h1>Weather App</h1>
+        <input type="text" id="searchBar" placeholder="Enter City Name..." />
+      </div>
+      <div class="content">
+        <div class="city"></div>
+        <div class="temp"></div>
+        <img src="" alt="" class="img" />
+        <div class="desc"></div>        
+      </div>
+      <div class="icons hidden">
+          <i class="fa-solid fa-wind wind"> 32 / 6.69</i>
+          <i class="fa-solid fa-droplet droplet"> 25</i>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
