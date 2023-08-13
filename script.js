@@ -12,21 +12,26 @@ searchBar.addEventListener("keypress", setQuery);
 
 // Data extraction by city name
 const getResult = (cityName) => {
-  console.log(cityName);
   let query = `
   ${url}weather?q=${cityName}&appid=${key}&units=metric&lang=tr
   `;
+
   fetch(query)
     .then((weather) => {
       return weather.json();
     })
-    .then(displayResult);
+    .then(displayResult)
+    .catch(() => {
+      document.querySelector(".error").style.display = "block";
+    });
+
   searchBar.value = "";
 };
 
 //print data from api to screen
 const displayResult = (result) => {
-  console.log(result);
+  document.querySelector(".error").style.display = "none";
+
   let city = document.querySelector(".city");
   city.innerText = `${result.name} / ${result.sys.country}
   `;
@@ -48,7 +53,6 @@ const displayResult = (result) => {
   icons.classList.remove("hidden");
 
   let weatherIcon = `images/${result.weather[0].icon}.png`;
-  console.log(weatherIcon);
 
   let img = document.querySelector(".img");
   img.src = weatherIcon;

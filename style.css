@@ -102,3 +102,17 @@ input:focus {
 .hidden {
   display: none;
 }
+
+.error {
+  color: #fff;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 5px rgba(226, 219, 219, 0.075);
+  display: none;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: red;
+  opacity: 0.7;
+}
